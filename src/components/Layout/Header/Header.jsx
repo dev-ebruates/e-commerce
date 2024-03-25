@@ -22,7 +22,7 @@ const Header = ({ setIsSearchShow }) => {
         <div className="container">
           <p>
             SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL
-            DELIVERY - OFF 50%!
+            DELIVERY - OFF 30%!
             <a href="shop.html"> SHOP NOW</a>
           </p>
         </div>
