@@ -18,7 +18,7 @@ import UpdateProductPage from "./pages/Admin/Products/UpdateProductPage";
 import CouponPage from "./pages/Admin/Coupons/CouponPage";
 import CreateCouponPage from "./pages/Admin/Coupons/CreateCouponPage";
 import UpdateCouponPage from "./pages/Admin/Coupons/UpdateCouponPage";
-import Success from "./pages/success";
+// import Success from "./pages/success";
 import OrderPage from "./pages/Admin/OrderPage";
 import DashboardPage from "./pages/DashboardPage";
 function App() {
@@ -32,7 +32,7 @@ function App() {
       <Route path="/account" element={<AccountPage />} />
       <Route path="/product/:id" element={<ProductDetailsPage />} />
       <Route path="/blog/:id" element={<BlogDetailsPage />} />
-      <Route path="/success" element={<Success />} />
+      {/* <Route path="/success" element={<Success />} /> */}
 
       {/*burada yıldız demek tüm admin sayfalarını direk yönlendirmek demek  */}
       <Route path="/admin/*">
